@@ -6,4 +6,6 @@ def update_server():
     subprocess.run(["apt", "update"])
 
 # Call the function to update the server
+
+
 update_server()
